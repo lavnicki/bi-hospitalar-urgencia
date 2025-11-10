@@ -80,8 +80,7 @@ Ele prevê a **demanda horária de atendimentos** a partir das variáveis:
 
 ## 🧾 Relatórios
 
-- 📄 `docs/Relatorio_Fase2_PUCRS.pdf` – relatório técnico final  
-- 🎞️ `docs/Apresentacao_Fase2_LucasLavnicki.pptx` – apresentação executiva  
+- 📄 `docs/Relatorio_Fase2_PUCRS.pdf` – relatório técnico final
 
 ---
 
