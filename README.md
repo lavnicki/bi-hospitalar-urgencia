@@ -21,13 +21,13 @@ A solução foi desenvolvida em quatro etapas principais, conforme o fluxo abaix
 
 ![Arquitetura da Solução](image-1.png)
 
-1. **Simulação de Dados – Google Colab (Python):**  
+1. **Simulação de Dados – Python:**  
    Geração de dados sintéticos de atendimentos hospitalares de urgência, incluindo data/hora de chegada, triagem, especialidade, tempo de espera e desfecho.
 
-2. **Processamento e Agregação – Google Colab (pandas):**  
+2. **Processamento e Agregação – pandas:**  
    Transformação e agregação dos atendimentos em uma visão horária (`demanda_horaria_urgencia_simulado.csv`), com indicadores de demanda e tempo médio de espera.
 
-3. **Análise Preditiva – Google Colab (scikit-learn / Random Forest):**  
+3. **Análise Preditiva – scikit-learn / Random Forest:**  
    Treinamento de um modelo de **Machine Learning** para prever o número de pacientes por hora com base em hora do dia, dia da semana e mês.  
    O resultado gera um dataset com a coluna `qtd_prevista`, permitindo comparação entre **demanda real x prevista**.
 
